@@ -7,7 +7,7 @@ java -Xms256M -Xmx400M -jar server.jar nogui &
 sleep 20
 
 # autentica ngrok
-ngrok config add-authtoken SEU_TOKEN_AQUI
+ngrok config add-authtoken 3BcrS8etzgqjwRyxCF2xXaS45U3_3yUPt3gEk4r1yyuhB25ZT
 
 # abre túnel TCP
 ngrok tcp 25565
